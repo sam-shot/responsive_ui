@@ -1,0 +1,14 @@
+{
+    "name" : "Bima Sakti",
+    "country" : "Tanjung Pinang",
+    "yearsExperience" :" 2",
+    "allProjects" : "54",
+    "clients" : "40",
+    "about" : "I am a UI designer with a passion for creating intuitive and visually appealing user interfaces. I have a strong understanding of design principles and work closely with developers to bring my designs to life. I have had the opportunity to work with a variety of clients at a studio. and am always striving to improve my skills and stay up- to-date on the latest design trends",
+    "picture" : "assets/picture.png",
+    "portfolio" : [
+        "assets/port1.jpg",
+        "assets/port2.jpg",
+        "assets/port3.jpg"
+    ]
+}
