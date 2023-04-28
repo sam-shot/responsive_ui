@@ -32,4 +32,5 @@ Voila!. You can now explore the app and all its features, make changes and impro
 That's it! You're now all set to run the app on your local machine and start tinkering with the code. 
 
 ### Screenshot 
-![Screenshot-14.png](https://postimg.cc/R6CcWWhr)
+![Screenshot (15)](https://user-images.githubusercontent.com/75101172/235190265-e62da6a0-43e0-49f2-98bf-47b6dd0cff5a.png)
+
