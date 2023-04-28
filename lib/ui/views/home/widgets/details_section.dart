@@ -40,8 +40,11 @@ class DetailsSection extends StatelessWidget {
               Positioned(
                   right: 0,
                   bottom: 0,
-                  child: CustomButton(
-                    text: "Hire Me",
+                  child: InkWell(
+                    onTap: () {},
+                    child: CustomButton(
+                      text: "Hire Me 👌",
+                    ),
                   ))
             ],
           ),
