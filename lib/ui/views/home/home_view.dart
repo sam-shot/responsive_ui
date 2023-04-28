@@ -47,6 +47,7 @@ class HomeView extends StatelessWidget {
                           ),
                           verticalSpaceRegular,
                           PortfolioSection(
+                            model: model,
                             isMobile: true,
                             images: model.user!.portfolio,
                           ),
@@ -77,6 +78,7 @@ class HomeView extends StatelessWidget {
                           SizedBox(
                               height: 280,
                               child: PortfolioSection(
+                                model: model,
                                 images: model.user!.portfolio,
                               )),
                           verticalSpaceRegular,
@@ -115,6 +117,7 @@ class HomeView extends StatelessWidget {
                               Expanded(
                                   flex: 3,
                                   child: PortfolioSection(
+                                    model: model,
                                     images: model.user!.portfolio,
                                   )),
                               horizontalSpaceRegular,

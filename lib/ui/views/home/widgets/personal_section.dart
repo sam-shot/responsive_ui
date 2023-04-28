@@ -6,6 +6,7 @@ import 'package:responsive_ui/ui/shared/colors.dart';
 import 'package:responsive_ui/ui/shared/spacing.dart';
 import 'package:responsive_ui/ui/shared/text_styles.dart';
 import 'package:responsive_ui/ui/widgets/custom_container.dart';
+import 'package:responsive_ui/ui/widgets/icon_wrap.dart';
 import 'package:responsive_ui/ui/widgets/text_row.dart';
 
 class PersonalSection extends StatelessWidget {
@@ -83,11 +84,22 @@ class PersonalSection extends StatelessWidget {
                   verticalSpaceRegular,
                   CustomContainer(
                     child: Row(
-                      children: const [
-                        ImageIcon(
-                          AssetImage(twitter),
-                          color: kWhite,
-                        )
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                      children: [
+                        Image.asset(
+                          linkedin,
+                          height: 40,
+                        ),
+                        IconWrap(
+                          iconPath: dribble,
+                        ),
+                        IconWrap(
+                          iconPath: twitter,
+                        ),
+                        IconWrap(
+                          iconPath: ig,
+                        ),
                       ],
                     ),
                   )
@@ -117,8 +129,7 @@ class PersonalSection extends StatelessWidget {
                             child: Column(
                           children: [
                             CustomContainer(
-                              child: TextRow(
-                                  prefix: "Name :", suffix: name),
+                              child: TextRow(prefix: "Name :", suffix: name),
                             ),
                             verticalSpaceRegular,
                             Expanded(
@@ -126,8 +137,7 @@ class PersonalSection extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     TextRow(
-                                        prefix: "Based in :",
-                                        suffix: country),
+                                        prefix: "Based in :", suffix: country),
                                     Expanded(
                                       child: Image.asset(
                                         map,
@@ -141,11 +151,22 @@ class PersonalSection extends StatelessWidget {
                             verticalSpaceRegular,
                             CustomContainer(
                               child: Row(
-                                children: const [
-                                  ImageIcon(
-                                    AssetImage(twitter),
-                                    color: kWhite,
-                                  )
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Image.asset(
+                                    linkedin,
+                                    height: 40,
+                                  ),
+                                  IconWrap(
+                                    iconPath: dribble,
+                                  ),
+                                  IconWrap(
+                                    iconPath: twitter,
+                                  ),
+                                  IconWrap(
+                                    iconPath: ig,
+                                  ),
                                 ],
                               ),
                             ),
@@ -175,8 +196,7 @@ class PersonalSection extends StatelessWidget {
                           child: Column(
                             children: [
                               CustomContainer(
-                                child: TextRow(
-                                    prefix: "Name :", suffix: name),
+                                child: TextRow(prefix: "Name :", suffix: name),
                               ),
                               verticalSpaceRegular,
                               Expanded(
@@ -198,12 +218,24 @@ class PersonalSection extends StatelessWidget {
                               ),
                               verticalSpaceRegular,
                               CustomContainer(
+                                padding: const EdgeInsets.all(7),
                                 child: Row(
-                                  children: const [
-                                    ImageIcon(
-                                      AssetImage(twitter),
-                                      color: kWhite,
-                                    )
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Image.asset(
+                                      linkedin,
+                                      height: 40,
+                                    ),
+                                    IconWrap(
+                                      iconPath: dribble,
+                                    ),
+                                    IconWrap(
+                                      iconPath: twitter,
+                                    ),
+                                    IconWrap(
+                                      iconPath: ig,
+                                    ),
                                   ],
                                 ),
                               )
@@ -217,3 +249,5 @@ class PersonalSection extends StatelessWidget {
     );
   }
 }
+
+
